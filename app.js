@@ -63,7 +63,7 @@ app.post("/feedback_form", function (req, res) {
 		name: req.body.name,
 		email: req.body.email,
 		feed: req.body.feedback
-	});
+	}); 
 	feedData.save()
 		.then(data => {
 			res.render('feedback_form',
