@@ -15,7 +15,7 @@ html(lang="en")
 			if(msg)
 				small=msg
 			//- feedback_form POST route
-			form(action="/feedback_form",method="POST")
+			form(action="/submit",method="POST")
 				label(for="name") Enter Your Name
 				input#name(type="text", name="name")
 				label(for="email") Enter Your Email
