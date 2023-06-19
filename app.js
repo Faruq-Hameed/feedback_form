@@ -14,9 +14,6 @@ const path = require('path');
 // Require pug template engine
 const pug = require("pug");
 
-// Require mongoose to use mongoDb
-// in a easier way
-
 // Define a port number
 const port = 3000;
 

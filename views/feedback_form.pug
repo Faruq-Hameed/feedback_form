@@ -17,12 +17,13 @@ html(lang="en")
 			//- feedback_form POST route
 			form(action="/submit",method="POST")
 				label(for="name") Enter Your Name
-				input#name(type="text", name="name")
+				input#name(type="text", name="name" required)
 				label(for="email") Enter Your Email
-				input#email(type="email", name="email")
+				input#email(type="email", name="email" required)
 				label(for="feedback") Enter Your Feedback
 				textarea#feedback(
 					name="feedback",
 					cols="30", rows="5"
+                    required
 				)
 				button(type="submit") Submit
